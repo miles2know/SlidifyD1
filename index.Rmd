@@ -29,11 +29,25 @@ knit        : slidify::knit2slides
 
 ## Slide 2
 
-* P1
-* P2
-* P3
+![]("AEO.PNG")
 
 ---
+
+## Slide 3
+
+![]("AEO.PNG")
+
+---
+
+
+
+
+
+
+
+
+
+
 
 
 
