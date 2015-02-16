@@ -27,15 +27,16 @@ knit        : slidify::knit2slides
 
 ---
 
-## Slide 2
+## How has the AEO Done
 
-![]("AEO.PNG")
+![Picture](assets/img/AEO.PNG)
+
 
 ---
 
 ## Slide 3
 
-![]("AEO.PNG")
+![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png) 
 
 ---
 
