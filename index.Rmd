@@ -1,7 +1,7 @@
 ---
-title       : 
+title       : NEG - ECP Reference Case
 subtitle    : 
-author      : 
+author      : NESCAUM
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
@@ -11,7 +11,7 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Read-And-Delete
+## Introduction
 
 1. Edit YAML front matter
 2. Write using R Markdown
@@ -19,8 +19,21 @@ knit        : slidify::knit2slides
 
 --- .class #id 
 
+## Slide 1
+
+* P1
+* P2
+* P3
+
+---
+
 ## Slide 2
 
+* P1
+* P2
+* P3
+
+---
 
 
 
