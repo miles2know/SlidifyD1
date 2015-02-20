@@ -1,0 +1,16 @@
+---
+layout: slide
+---
+<slide class="{{ slide.class }}" id="{{ slide.id }}">
+  
+  <article>
+    <hr noshade size=4 color='red'>  
+    {{{ slide.content }}}  
+    <div class='left' style='float:left;width:60%'>
+     {{{ slide.left.html }}}
+    </div>    
+    <div class='right' style='float:right;width:30%'>
+     {{{ slide.right.html }}}
+    </div>
+  </article>
+</slide>

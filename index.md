@@ -11,26 +11,39 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Introduction
+<style>
+.title-slide {
+  background-color: #EDE0CF; /* #EDE0CF; ; #CA9F9D*/
+}
+</style>
 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
+## Introduction 
 
---- .class #id 
+> 1. Edit YAML front matter
+> 2. Write using R Markdown
+> 3. Use an empty line followed by three dashes to separate slides!
+
+--- 
 
 ## Slide 1
 
-* P1
-* P2
-* P3
+> * P1
+> * P2
+> * P3
 
----
+--- &twoCol1 
 
 ## How has the AEO Done
 
-![Picture](assets/img/AEO.PNG)
+*** =left
 
+<img width=650px height=500px src='assets/img/AEO.PNG'></img>
+
+*** =right
+
+> * P1
+> * P2
+> * P3
 
 ---
 
@@ -38,11 +51,24 @@ knit        : slidify::knit2slides
 
 ![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png) 
 
----
+--- &twoCol2 
+## Two Column Layout
 
+This slide has two columns
 
+*** =left
 
+- point 1
+- point 2
+- point 3
 
+*** =right
+
+- point 1
+- point 2
+- point 3
+
+--- 
 
 
 
