@@ -6,7 +6,7 @@ job         :
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
-widgets     : []            # {mathjax, quiz, bootstrap}
+widgets     : [mathjax, quiz, bootstrap,shiny, interactive] # {mathjax, quiz, bootstrap, shiny, interactive}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
@@ -17,11 +17,13 @@ knit        : slidify::knit2slides
 }
 </style>
 
-## Introduction 
+## Background 
 
-> 1. Edit YAML front matter
-> 2. Write using R Markdown
-> 3. Use an empty line followed by three dashes to separate slides!
+> 1. 2008 NEG-ECP efforts
+
+> 2. Updated Reference Case 
+
+> 3. Moving Forward with Updated Wedges Analysis
 
 --- 
 
@@ -45,16 +47,22 @@ knit        : slidify::knit2slides
 > * P2
 > * P3
 
----
+--- &twoCol1 
 
-## Slide 3
+## CO2e Emissions by Sector 2030
 
-```{r,echo=FALSE}
-require(ggplot2)
-qplot(wt, mpg, data = mtcars)
-```
+*** =left
+
+<img width=650px height=500px src='assets/img/SectorEmis.PNG'></img>
+
+*** =right
+
+> * P1
+> * P2
+> * P3
 
 --- &twoCol2 
+
 ## Two Column Layout
 
 This slide has two columns
@@ -72,6 +80,7 @@ This slide has two columns
 - point 3
 
 --- 
+
 
 
 

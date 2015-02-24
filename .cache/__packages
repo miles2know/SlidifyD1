@@ -1,2 +1,9 @@
 base
 ggplot2
+ggvis
+dplyr
+shiny
+slidify
+slidifyLibraries
+devtools
+XML
